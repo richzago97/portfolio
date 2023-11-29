@@ -11,7 +11,7 @@ import "swiper/css/pagination"
 const projectData = [
     {
         image: "/work/1.png",
-        category: "front end",
+        category: "back end",
         name: "Evolve Website",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         link: "/",
@@ -19,7 +19,7 @@ const projectData = [
     },
     {
         image: "/work/2.png",
-        category: "front end",
+        category: "back end",
         name: "Lumina Website",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         link: "/",
@@ -50,6 +50,7 @@ const projectData = [
         github: "/"
     },
 ]
+
 const Work = () => {
   return (
    <section className="relative mb-12 xl:mb-48">
