@@ -60,6 +60,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  .min-description-height {
+    min-height: 200px;
+  }
 }
 
 .h1 {

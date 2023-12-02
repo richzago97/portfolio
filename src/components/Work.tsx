@@ -39,7 +39,7 @@ const projectData = [
   {
     image: "/work/motors-shop.png",
     category: "fullstack",
-    name: "Envision Website",
+    name: "Motors Shop",
     description:
       "Web application for buying and selling vehicles. Users can register as customers or advertisers, log in, update their profile information and manage their ads, among others. Used React, chakra ui and Node.js",
     link: "https://github.com/orgs/m6-projeto-final-grupo36/repositories/",
@@ -63,9 +63,9 @@ const Work = () => {
         {/* Text */}
         <div
           className="max-w-[400px] mx-auto
-    xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px]
-    flex flex-col justify-center items-center 
-    xl:items-start"
+          xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px]
+          flex flex-col justify-center items-center 
+          xl:items-start"
         >
           <h2
             className="section-title 
