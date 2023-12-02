@@ -69,9 +69,9 @@ const Work = () => {
             Latest Projects
           </h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
-            ratione quis, sequi libero vel qui officiis temporibus quidem quod
-            tempore quo adipisci soluta fuga perferendis
+            Explore a diverse showcase of recent projects—from back-end to
+            front-end and full-stack development. Swipe or click 'All projects'
+            below to view more
           </p>
           <Link href="/projects">
             <Button>All projects</Button>
