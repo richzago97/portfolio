@@ -12,19 +12,19 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Full Stack Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa tenetur, itaque recusandae optio harum. Vel perspiciatis quis sapiente expedita deleniti cupiditate dignissimos iusto pariatur est odio, culpa in impedit?",
+      "I've worked on comprehensive solutions that encompass both front-end and back-end. I can create robust and integrated applications, providing a complete user experience",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Back End Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa tenetur, itaque recusandae optio harum. Vel perspiciatis quis sapiente expedita deleniti cupiditate dignissimos iusto pariatur est odio, culpa in impedit?",
+      "My passion for back-end development has led me to build solid foundations for applications, ensuring performance, scalability, and security.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "Web Design",
+    title: "Personal Identity",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa tenetur, itaque recusandae optio harum. Vel perspiciatis quis sapiente expedita deleniti cupiditate dignissimos iusto pariatur est odio, culpa in impedit?",
+      "My enthusiasm for continuous learning fuels my pursuit of new challenges and innovative solutions in programming.",
   },
 ];
 
