@@ -78,13 +78,13 @@ const skillsData = [
         icons: [
           "/about/skills/javascript.svg",
           "/about/skills/typescript.svg",
-          "/about/skills/react.svg",
-          "/about/skills/next-js.svg",
+          "/about/skills/react.png",
+          "/about/skills/next.png",
         ],
       },
       {
         icons: [
-          "/about/skills/node-js.svg",
+          "/about/skills/nodejs.svg",
           "/about/skills/express.svg",
           "/about/skills/typeorm.svg",
           "/about/skills/prisma.svg",
@@ -92,16 +92,16 @@ const skillsData = [
       },
       {
         icons: [
-          "/about/skills/python.svg",
+          "/about/skills/python.png",
           "/about/skills/django.svg",
           "/about/skills/java.svg",
-          "/about/skills/springboot.svg",
+          "/about/skills/springboot.png",
         ],
       },
       {
         icons: [
-          "/about/skills/nestjs.svg",
-          "/about/skills/composer.svg",
+          "/about/skills/nest.png",
+          "/about/skills/php.svg",
           "/about/skills/laravel.svg",
           "/about/skills/redis.svg",
         ],
@@ -160,7 +160,7 @@ const About = () => {
         </h2>
         <div className="flex flex-col xl:flex-row">
           <div className="hidden xl:flex flex-1 relative">
-            <DevImg 
+            <DevImg
               containerStyles="bg-about_shape_light 
             dark:bg-about_shape_dark w-[505px] h-[505px] 
             bg-no-repeat relative"
