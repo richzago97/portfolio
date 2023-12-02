@@ -75,7 +75,7 @@ const Work = () => {
           </h2>
           <p className="subtitle mb-8">
             Explore a diverse showcase of recent projects—from back-end to
-            front-end and full-stack development. Swipe or click 'All projects'
+            front-end and full-stack development. Swipe or click All projects
             below to view more
           </p>
           <Link href="/projects">

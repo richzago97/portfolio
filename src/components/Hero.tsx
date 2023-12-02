@@ -85,7 +85,7 @@ const Hero = () => {
             <DevImg
               containerStyles="bg-hero_shape w-[510px] 
             h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc="/hero/developer2.png"
+              imgSrc="/hero/developer.png"
             />
           </div>
         </div>
