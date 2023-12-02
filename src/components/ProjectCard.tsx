@@ -4,7 +4,9 @@ import { Card, CardHeader } from "./ui/card";
 import { Github, Link2Icon } from "lucide-react";
 import { Badge } from "./ui/badge";
 
-const ProjectCard = ({ project }: any) => {
+const ProjectCard = ({ project, specialStyle }: any) => {
+  const cardClass = specialStyle ? "min-description-height" : "";
+
   return (
     <Card className="group overflow-hidden relative">
       <CardHeader className="p-0">
@@ -58,8 +60,8 @@ const ProjectCard = ({ project }: any) => {
         </Badge>
         <h4 className="h4 mb-1">{project.name}</h4>
         <p
-          className="text-muted-foreground
-                text-lg"
+          className={`text-muted-foreground
+                text-lg  ${cardClass}`}
         >
           {project.description}
         </p>
