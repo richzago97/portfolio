@@ -31,8 +31,8 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Richard Zago</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief description with insights into myself, my vocational journey
-              and what I engage in professionally.
+              Specializing in full stack development with a pronounced focus and
+              enthusiasm for building powerful back-end solutions.
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3
@@ -80,7 +80,7 @@ const Hero = () => {
             <DevImg
               containerStyles="bg-hero_shape w-[510px] 
             h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc="/hero/developer.png"
+              imgSrc="/hero/developer2.png"
             />
           </div>
         </div>
