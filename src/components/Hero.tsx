@@ -31,8 +31,8 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Richard Zago</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief description with insights into myself, my vocational journey
-              and what I engage in professionally.
+              Specializing in full stack development with a pronounced focus and
+              enthusiasm for building powerful back-end solutions.
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3
@@ -43,10 +43,15 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download CV
-                <Download size={18} />
-              </Button>
+              <Link
+                target="_blank"
+                href="https://docs.google.com/document/d/1drBPeGxNUrsnauVXTSBvEjeEe3djiXjb1osyXHs5hts/edit?usp=sharing"
+              >
+                <Button variant="secondary" className="gap-x-2">
+                  Download CV
+                  <Download size={18} />
+                </Button>
+              </Link>
             </div>
             <Socials
               containerStyles="flex gap-x-6 mx-auto xl:mx-0"
@@ -80,7 +85,7 @@ const Hero = () => {
             <DevImg
               containerStyles="bg-hero_shape w-[510px] 
             h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc="/hero/developer.png"
+              imgSrc="/hero/developer2.png"
             />
           </div>
         </div>

@@ -67,13 +67,52 @@ const skillsData = [
     title: "skills",
     data: [
       {
-        name: "HTML, CSS, JAVASCRIPT, REACT",
+        icons: [
+          "/about/skills/html5.svg",
+          "/about/skills/css.svg",
+          "/about/skills/styled-components.svg",
+          "/about/skills/tailwind.svg",
+        ],
       },
       {
-        name: "Full Stack Developer",
+        icons: [
+          "/about/skills/javascript.svg",
+          "/about/skills/typescript.svg",
+          "/about/skills/react.png",
+          "/about/skills/next.png",
+        ],
       },
       {
-        name: "Back End Developer",
+        icons: [
+          "/about/skills/nodejs.svg",
+          "/about/skills/express.svg",
+          "/about/skills/typeorm.svg",
+          "/about/skills/prisma.svg",
+        ],
+      },
+      {
+        icons: [
+          "/about/skills/python.png",
+          "/about/skills/django.svg",
+          "/about/skills/java.svg",
+          "/about/skills/springboot.png",
+        ],
+      },
+      {
+        icons: [
+          "/about/skills/nest.png",
+          "/about/skills/php.svg",
+          "/about/skills/laravel.svg",
+          "/about/skills/redis.svg",
+        ],
+      },
+      {
+        icons: [
+          "/about/skills/postgres.svg",
+          "/about/skills/mysql.svg",
+          "/about/skills/mongodb.svg",
+          "/about/skills/docker.svg",
+        ],
       },
     ],
   },
@@ -81,10 +120,25 @@ const skillsData = [
     title: "tools",
     data: [
       {
-        imgPath: "/about/vscode.svg",
+        imgPath: "/about/tools/windows.svg",
       },
       {
-        imgPath: "/about/notion.svg",
+        imgPath: "/about/tools/linux.svg",
+      },
+      {
+        imgPath: "/about/tools/vscode.svg",
+      },
+      {
+        imgPath: "/about/tools/insomnia.svg",
+      },
+      {
+        imgPath: "/about/tools/jira.svg",
+      },
+      {
+        imgPath: "/about/tools/notion.svg",
+      },
+      {
+        imgPath: "/about/tools/trello.svg",
       },
     ],
   },
@@ -110,7 +164,7 @@ const About = () => {
               containerStyles="bg-about_shape_light 
             dark:bg-about_shape_dark w-[505px] h-[505px] 
             bg-no-repeat relative"
-              imgSrc="/about/developer.png"
+              imgSrc="/about/developer.jpg"
             />
           </div>
           <div className="flex-1">
@@ -139,9 +193,9 @@ const About = () => {
                       Service Quality for Over 2 Years
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I specialize in crafting intuitive websites with
-                      cutting-edge technology, delivering dynamic and engaging
-                      user experience
+                      Driven by an insatiable curiosity, I dedicate myself to
+                      the craft of coding, engaging in new projects and
+                      continuous learning.
                     </p>
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {
@@ -287,17 +341,31 @@ const About = () => {
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* Skills List*/}
-                      <div>
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {getData(skillsData, "skills").data.map(
                           (item: any, index: any) => {
-                            const { name } = item;
+                            const { icons } = item;
                             return (
                               <div
-                                className="w-2/4 text-center xl:text-left
-                                            mx-auto xl:mx-0"
+                                className="flex flex-wrap justify-center"
                                 key={index}
                               >
-                                <div className="font-medium">{name}</div>
+                                {icons.map((imgPath: string, idx: number) => (
+                                  <div
+                                    key={idx}
+                                    style={{ width: "48px", height: "48px" }}
+                                    className="relative w-20 h-20 cursor-pointer transition duration-300 transform hover:scale-110 mx-2 my-2"
+                                  >
+                                    <Image
+                                      src={imgPath}
+                                      alt={`Skill ${idx}`}
+                                      width={48}
+                                      height={48}
+                                      layout="responsive"
+                                      priority
+                                    />
+                                  </div>
+                                ))}
                               </div>
                             );
                           }
@@ -318,8 +386,8 @@ const About = () => {
                             <div key={index}>
                               <Image
                                 src={imgPath}
-                                width={48}
-                                height={48}
+                                width={28}
+                                height={28}
                                 alt="Tools Image"
                                 priority
                               />
