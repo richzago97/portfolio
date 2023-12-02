@@ -29,6 +29,7 @@ const ProjectCard = ({ project, specialStyle }: any) => {
           {/* Buttons Links */}
           <div className="flex gap-x-4">
             <Link
+              target="_blank"
               href={project.link}
               className="bg-secondary w-[54px] h[54px]
                   rounded-full flex justify-center scale-0
@@ -39,6 +40,7 @@ const ProjectCard = ({ project, specialStyle }: any) => {
             </Link>
 
             <Link
+              target="_blank"
               href={project.github}
               className="bg-secondary w-[54px] h[54px]
                   rounded-full flex justify-center scale-0
