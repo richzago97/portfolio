@@ -10,44 +10,49 @@ import "swiper/css/pagination";
 
 const projectData = [
   {
-    image: "/work/1.png",
+    image: "/work/api.png",
     category: "back end",
-    name: "Evolve Website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    link: "/",
-    github: "/",
+    name: "MKS Challenge",
+    description:
+      "The proposed challenge involves creating a JWT authentication system and a CRUD API for a movie catalog. Tools and technologies used include TypeScript, Nest.js, TypeORM, Swagger, Docker, PostgreSQL and Redis.",
+    link: "https://github.com/richzago97/mks-backend-challenge",
+    github: "https://github.com/richzago97/mks-backend-challenge",
   },
   {
-    image: "/work/2.png",
+    image: "/work/api.png",
     category: "back end",
-    name: "Lumina Website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    link: "/",
-    github: "/",
+    name: "Zago Bank",
+    description:
+      "Zago Bank is a Transaction System, a web application developed in Laravel, which allows users to carry out financial transactions, such as deposits and transfers. It provides an API to manage users and transactions.",
+    link: "https://github.com/richzago97/zagobank",
+    github: "https://github.com/richzago97/zagobank",
   },
   {
-    image: "/work/3.png",
-    category: "front end",
-    name: "Ignite Website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    link: "/",
-    github: "/",
+    image: "/work/api.png",
+    category: "back end",
+    name: "Bandkamp",
+    description:
+      "This project enables users to register albums and songs, implementing varied access permissions for distinguishing between super users and regular users. It was developed using Python, Django framework, and PostgreSQL database.",
+    link: "https://github.com/richzago97/bandkamp",
+    github: "https://github.com/richzago97/bandkamp",
   },
   {
-    image: "/work/4.png",
+    image: "/work/motors-shop.png",
     category: "fullstack",
     name: "Envision Website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    link: "/",
-    github: "/",
+    description:
+      "Web application for buying and selling vehicles. Users can register as customers or advertisers, log in, update their profile information and manage their ads, among others. Used React, chakra ui and Node.js",
+    link: "https://github.com/orgs/m6-projeto-final-grupo36/repositories/",
+    github: "https://github.com/orgs/m6-projeto-final-grupo36/repositories",
   },
   {
-    image: "/work/4.png",
-    category: "fullstack",
-    name: "Nexa Website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    link: "/",
-    github: "/",
+    image: "/work/kenzie-hub.png",
+    category: "front end",
+    name: "Kenzie Hub",
+    description:
+      "The Kenzie Hub, powered by React technology, acts as a platform for Kenzie's programmers' portfolios. It facilitates user registration, login, portfolio and project management, user interaction, and the sharing of insights within the developer community.",
+    link: "https://kenzie-hub-seven-lake.vercel.app/",
+    github: "https://github.com/richzago97/kenzie-hub",
   },
 ];
 
