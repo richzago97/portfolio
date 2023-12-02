@@ -43,10 +43,15 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download CV
-                <Download size={18} />
-              </Button>
+              <Link
+                target="_blank"
+                href="https://docs.google.com/document/d/1drBPeGxNUrsnauVXTSBvEjeEe3djiXjb1osyXHs5hts/edit?usp=sharing"
+              >
+                <Button variant="secondary" className="gap-x-2">
+                  Download CV
+                  <Download size={18} />
+                </Button>
+              </Link>
             </div>
             <Socials
               containerStyles="flex gap-x-6 mx-auto xl:mx-0"
