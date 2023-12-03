@@ -8,16 +8,16 @@ import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/utils/send-email";
 
-export type FormData = {
+export type FormValues = {
   name: string;
   email: string;
   message: string;
 };
 
 const Form: FC = () => {
-  const { register, handleSubmit } = useForm<FormData>();
+  const { register, handleSubmit } = useForm<FormValues>();
 
-  function onSubmit(data: FormData) {
+  function onSubmit(data: FormValues) {
     sendEmail(data);
   }
 
