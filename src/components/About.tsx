@@ -11,6 +11,7 @@ import {
   Calendar,
   Briefcase,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const infoData = [
   {
@@ -145,6 +146,7 @@ const skillsData = [
 ];
 
 const About = () => {
+  const t = useTranslations("About");
   const getData = (arr: any, title: any) => {
     return arr.find((item: any) => item.title === title);
   };
@@ -156,7 +158,7 @@ const About = () => {
           className="section-title mb-8 xl:mb-16 text-center 
         mx-auto"
         >
-          About me
+          {t("title-1")}
         </h2>
         <div className="flex flex-col xl:flex-row">
           <div className="hidden xl:flex flex-1 relative">
@@ -174,28 +176,24 @@ const About = () => {
                 xl:max-w[520px] xl:border dark:border-none"
               >
                 <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
-                  Personal Info
+                  {t("title-2")}
                 </TabsTrigger>
                 <TabsTrigger
                   className="w-[162px] xl:w-auto"
                   value="qualifications"
                 >
-                  Qualifications
+                  {t("title-3")}
                 </TabsTrigger>
                 <TabsTrigger className="w-[162px] xl:w-auto" value="skills">
-                  Skills
+                  {t("title-4")}
                 </TabsTrigger>
               </TabsList>
               <div className="text-lg mt-12 xl:mt-8">
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">
-                      Service Quality for Over 2 Years
-                    </h3>
+                    <h3 className="h3 mb-4">{t("title-5")}</h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Driven by an insatiable curiosity, I dedicate myself to
-                      the craft of coding, engaging in new projects and
-                      continuous learning.
+                      {t("description")}
                     </p>
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {
@@ -213,9 +211,9 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col gap-y-2">
-                      <div className="text-primary">Language Skill</div>
+                      <div className="text-primary"> {t("title-6")}</div>
                       <div className="border-b border-border"></div>
-                      <div>Portuguese(Native), English(Basic) </div>
+                      <div> {t("languages")} </div>
                     </div>
                   </div>
                 </TabsContent>
@@ -223,7 +221,7 @@ const About = () => {
                 <TabsContent value="qualifications">
                   <div>
                     <h3 className="h3 mb-8 text-center xl:text-left">
-                      My Qualifications
+                      {t("title-7")}
                     </h3>
                     <div className="grid md:grid-cols-2 gap-y-8">
                       {/* Experience*/}
@@ -335,10 +333,12 @@ const About = () => {
 
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">What I Use</h3>
+                    <h3 className="h3 mb-8"> {t("title-8")}</h3>
                     {/* Skills */}
                     <div className="mb-16">
-                      <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                      <h4 className="text-xl font-semibold mb-2">
+                        {t("title-9")}
+                      </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* Skills List*/}
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -374,7 +374,7 @@ const About = () => {
                     </div>
                     {/* Tools */}
                     <h4 className="text-xl font-semibold mb-2 xl:text-left">
-                      Tools
+                      {t("title-10")}
                     </h4>
                     <div className="border-b border-border mb-4"></div>
                     {/* Tools List */}
