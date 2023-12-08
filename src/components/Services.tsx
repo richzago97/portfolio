@@ -6,34 +6,34 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-
-const servicesData = [
-  {
-    icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Full Stack Developer",
-    description:
-      "I've worked on comprehensive solutions that encompass both front-end and back-end. I can create robust and integrated applications, providing a complete user experience",
-  },
-  {
-    icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: "Back End Developer",
-    description:
-      "My passion for back-end development has led me to build solid foundations for applications, ensuring performance, scalability, and security.",
-  },
-  {
-    icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "Personal Identity",
-    description:
-      "My enthusiasm for continuous learning fuels my pursuit of new challenges and innovative solutions in programming.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const Services = () => {
+  const t = useTranslations("Services");
+
+  const servicesData = [
+    {
+      icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
+      title: t("title-1"),
+      description: t("description-1"),
+    },
+    {
+      icon: <Blocks size={72} strokeWidth={0.8} />,
+      title: t("title-2"),
+      description: t("description-2"),
+    },
+    {
+      icon: <Gem size={72} strokeWidth={0.8} />,
+      title: t("title-3"),
+      description: t("description-3"),
+    },
+  ];
+
   return (
     <section className="mb-12 xl:mb-36">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
-          My Services
+          {t("title-main")}
         </h2>
         {/* Grid Items */}
         <div
