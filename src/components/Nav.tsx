@@ -1,4 +1,5 @@
-import Link from "next/link";
+"use client";
+import { Link } from "../../navigation";
 
 import { usePathname } from "next/navigation";
 
@@ -12,6 +13,7 @@ const links = [
 
 const Nav = ({ containerStyles, linkStyles, underlineStyles }: any) => {
   const path = usePathname();
+  console.log(path);
   return (
     <nav className={`${containerStyles}`}>
       {links.map((link, index) => {
