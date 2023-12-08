@@ -10,8 +10,11 @@ import {
 import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("Hero");
+
   return (
     <section
       className="py-12 xl:py-24 h-[84vh] xl:pt-28 
@@ -27,12 +30,11 @@ const Hero = () => {
               className="text-sm uppercase font-semibold
             mb-4 text-primary tracking-[4px]"
             >
-              Web Developer
+              {t("div-title")}
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Richard Zago</h1>
+            <h1 className="h1 mb-4">{t("title")}</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Specializing in full stack development with a pronounced focus and
-              enthusiasm for building powerful back-end solutions.
+              {t("subtitle")}
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3
@@ -40,7 +42,7 @@ const Hero = () => {
             >
               <Link href="/contact">
                 <Button className="gap-x-2">
-                  Contact me <Send size={18} />
+                  {t("contact-me")} <Send size={18} />
                 </Button>
               </Link>
               <Link
@@ -48,7 +50,7 @@ const Hero = () => {
                 href="https://docs.google.com/document/d/1drBPeGxNUrsnauVXTSBvEjeEe3djiXjb1osyXHs5hts/edit?usp=sharing"
               >
                 <Button variant="secondary" className="gap-x-2">
-                  Download CV
+                  {t("download-cv")}
                   <Download size={18} />
                 </Button>
               </Link>
