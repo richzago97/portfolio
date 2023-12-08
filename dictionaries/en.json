@@ -1,0 +1,60 @@
+{
+  "Hero": {
+    "div-title": "Web Developer",
+    "title": "Hello, my name is Richard Zago",
+    "subtitle": "Specializing in full stack development with a pronounced focus andenthusiasm for building powerful back-end solutions.",
+    "contact-me": "Contact me",
+    "download-cv": "Download CV",
+    "badge-text": "Years Of Experience"
+  },
+  "About": {
+    "title-1": "About me",
+    "title-2": "Personal Info",
+    "title-3": "Qualifications",
+    "title-4": "Skills",
+    "title-5": "Service Quality for Over 2 Years",
+    "description": "Driven by an insatiable curiosity, I dedicate myself to the craft of coding, engaging in new projects and continuous learning.",
+    "title-6": "Language Skill",
+    "languages": "Portuguese(Native), English(Basic)",
+    "title-7": "My Qualifications",
+    "title-8": "What I Use",
+    "title-9": "Skills",
+    "title-10": "Tools"
+  },
+  "Latest-Projects": {
+    "title-main": "My Services",
+    "title-1": "Full Stack Developer",
+    "title-2": "Back End Developer",
+    "title-3": "Personal Identity",
+    "description-1": "I've worked on comprehensive solutions that encompass both front-end and back-end. I can create robust and integrated applications, providing a complete user experience.",
+    "description-2": "My passion for back-end development has led me to build solid foundations for applications, ensuring performance, scalability, and security.",
+    "description-3": "My enthusiasm for continuous learning fuels my pursuit of new challenges and innovative solutions in programming."
+  },
+  "Services": {
+    "title-main": "My Services",
+    "title-1": "Full Stack Developer",
+    "title-2": "Back-End Developer",
+    "title-3": "Personal Identity",
+    "description-1": "I've worked on comprehensive solutions that encompass both front-end and back-end. I can create robust and integrated applications, providing a complete user experience.",
+    "description-2": "My passion for back-end development has led me to build solid foundations for applications, ensuring performance, scalability, and security.",
+    "description-3": "My enthusiasm for continuous learning fuels my pursuit of new challenges and innovative solutions in programming."
+  },
+  "Work": {
+    "title-main": "Latest Projects",
+    "subtitle": "Explore a diverse showcase of recent projects—from back-end to front-end and full-stack development. Swipe or click All projects below to view more",
+    "btn-allprojects": "All projects",
+    "description1": "The proposed challenge involves creating a JWT authentication system and a CRUD API for a movie catalog. Tools and technologies used include TypeScript, Nest.js, TypeORM, Swagger, Docker, PostgreSQL and Redis.",
+    "description2": "Zago Bank is a Transaction System, a web application developed in Laravel, which allows users to carry out financial transactions, such as deposits and transfers. It provides an API to manage users and transactions.",
+    "description3": "This project enables users to register albums and songs, implementing varied access permissions for distinguishing between super users and regular users. It was developed using Python, Django framework, and PostgreSQL database.",
+    "description4": "Web application for buying and selling vehicles. Users can register as customers or advertisers, log in, update their profile information and manage their ads, among others. Used React, chakra ui and Node.js",
+    "description5": "The Kenzie Hub, powered by React technology, acts as a platform for Kenzie's programmers' portfolios. It facilitates user registration, login, portfolio and project management, user interaction, and the sharing of insights within the developer community."
+  },
+  "Cta": {
+    "title": "Prepared to turn your ideas into reality? I am here to help",
+    "btn": "Contact me"
+  },
+  "Contact": {
+    "title": "Say Hello",
+    "": ""
+  }
+}

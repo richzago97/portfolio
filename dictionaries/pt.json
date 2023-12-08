@@ -1,0 +1,46 @@
+{
+  "Hero": {
+    "div-title": "Desenvolvedor Web",
+    "title": "Olá, me chamo Richard Zago",
+    "subtitle": "Especializado em desenvolvimento full stack com foco pronunciado e entusiasmo na construção de soluções back-end.",
+    "contact-me": "Contato",
+    "download-cv": "Baixar CV"
+  },
+  "About": {
+    "title-1": "Sobre mim",
+    "title-2": "Informações Pessoais",
+    "title-3": "Qualificações",
+    "title-4": "Habilidades",
+    "title-5": "Qualidade de Serviço por Mais de 2 Anos",
+    "description": "Movido por uma curiosidade insaciável, dedico-me à arte da programação, envolvendo-me em novos projetos e aprendizado contínuo.",
+    "title-6": "Habilidade em Idiomas",
+    "languages": "Português (Nativo), Inglês (Básico)",
+    "title-7": "Minhas Qualificações",
+    "title-8": "O Que Eu Uso",
+    "title-9": "Habilidades",
+    "title-10": "Ferramentas"
+  },
+  "Services": {
+    "title-main": "Meus Serviços",
+    "title-1": "Desenvolvedor Full Stack",
+    "title-2": "Desenvolvedor Back-End",
+    "title-3": "Identidade Pessoal",
+    "description-1": "Trabalhei em soluções abrangentes que englobam tanto o front-end quanto o back-end. Posso criar aplicativos robustos e integrados, proporcionando uma experiência completa ao usuário.",
+    "description-2": "Minha paixão pelo desenvolvimento back-end me levou a construir bases sólidas para aplicativos, garantindo desempenho, escalabilidade e segurança.",
+    "description-3": "Meu entusiasmo pelo aprendizado contínuo alimenta minha busca por novos desafios e soluções inovadoras na programação."
+  },
+  "Work": {
+    "title-main": "Últimos Projetos",
+    "subtitle": "Explore uma diversificada seleção de projetos recentes—desde desenvolvimento back-end até front-end e full-stack. Deslize ou clique em Todos os projetos abaixo para ver mais",
+    "btn-allprojects": "Todos os projetos",
+    "description1": "O desafio proposto envolve a criação de um sistema de autenticação JWT e uma API CRUD para um catálogo de filmes. Ferramentas e tecnologias usadas incluem TypeScript, Nest.js, TypeORM, Swagger, Docker, PostgreSQL e Redis.",
+    "description2": "Zago Bank é um Sistema de Transações, uma aplicação web desenvolvida em Laravel, que permite aos usuários realizar transações financeiras, como depósitos e transferências. Ele fornece uma API para gerenciar usuários e transações.",
+    "description3": "Este projeto permite aos usuários registrar álbuns e músicas, implementando permissões de acesso variadas para distinguir entre super usuários e usuários regulares. Foi desenvolvido usando Python, framework Django e banco de dados PostgreSQL.",
+    "description4": "Aplicação web para compra e venda de veículos. Os usuários podem se registrar como clientes ou anunciantes, fazer login, atualizar suas informações de perfil e gerenciar seus anúncios, entre outros. Usou React, chakra ui e Node.js",
+    "description5": "O Kenzie Hub, com tecnologia React, atua como uma plataforma para os portfólios dos programadores da Kenzie. Facilita o registro de usuário, login, gerenciamento de portfólio e projeto, interação do usuário e compartilhamento de insights dentro da comunidade de desenvolvedores."
+  },
+  "Cta": {
+    "title": "Preparado para transformar suas ideias em realidade? Estou aqui para ajudar",
+    "btn": "Contate-me"
+  }
+}
