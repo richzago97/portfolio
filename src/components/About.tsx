@@ -55,7 +55,7 @@ const qualificationData = [
     data: [
       {
         company: "Kenzie Academy Brasil",
-        role: "Monitor(Peer Coach)",
+        role: "Monitor Back End (Peer Coach)",
         years: "11/05/2022 - 04/01/2023",
       },
     ],
