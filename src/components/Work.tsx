@@ -76,7 +76,7 @@ const Work = () => {
                <p className="subtitle mb-8">
                   Explore uma vitrine diversificada de projetos recentes — desde
                   back-end até front-end e desenvolvimento full-stack. Deslize
-                  ou clique em "Todos os projetos" abaixo para ver mais.
+                  ou clique em Todos os projetos abaixo para ver mais.
                </p>
                <Link href="/projects">
                   <Button>Todos os projetos</Button>
