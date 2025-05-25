@@ -1,6 +1,7 @@
+import { ContactFormData } from "@/components/Form";
 import { toast } from "sonner";
 
-export function sendEmail(data: FormData) {
+export function sendEmail(data: ContactFormData) {
   const apiEndpoint = "/api/email";
 
   fetch(apiEndpoint, {
